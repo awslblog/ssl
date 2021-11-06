@@ -29,11 +29,11 @@ jobs:
     - name: Install & Build
       run: |
         npm i
-        git clone https://github.com/ChenYFan/CheckSSL --depth=2
+        git clone https://github.com/awslblog/CheckSSL --depth=2
         npm run build
         cd CheckSSL
         chmod +x checker.sh
-        ./checker.sh awsl.blog www.awsl.blog
+        ./checker.sh awsl.blog www.awsl.blog p.awsl.tech thinkingnull.com ct.awslblog.com dev.awslblog.com
         cp -rf ./output/ct.json ../public/ct.json
         echo "ct.awslblog.com" > ../public/CNAME
         

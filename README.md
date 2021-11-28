@@ -2,6 +2,7 @@
 🔒无后端每日检查特定网站的SSL证书状况
 利用Travis-CI or GithubAction定时检测SSL状态并输出
 
+[![AWSL SSLCheck](https://github.com/awslblog/ssl/actions/workflows/SSLCheck.yml/badge.svg)](https://github.com/awslblog/ssl/actions/workflows/SSLCheck.yml)
 # 开始
 
 ## Travis-CI
